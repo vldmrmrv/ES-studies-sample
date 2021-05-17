@@ -1,7 +1,7 @@
 ## ES(E-mini S&P 500 Futures)/SPX Studies
 * [General info](#general-info)
 * [Methodology](#methodology)
-* [SW & libraries](#SW & libraries)
+* [SW and libraries](#SW and libraries)
 * [Data](#data)
 
 ## General info
