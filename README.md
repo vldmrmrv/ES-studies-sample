@@ -12,6 +12,6 @@ Project is created with:
 * Ipsum version: 2.33
 * Ament library version: 999
 	
-## Setup
-To run this project, install it locally using npm:
+## ---
+Past performance is not indicative of future results. Data and information provided may be delayed. Data and information is provided for informational purposes only, and is not intended for trading purposes.
 
