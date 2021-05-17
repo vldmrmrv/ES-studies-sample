@@ -27,4 +27,3 @@ Project is created with:
 
 ## ---
 Past performance is not indicative of future results. Data and information provided may be delayed. Data and information is provided for informational purposes only, and is not intended for trading purposes.
-
