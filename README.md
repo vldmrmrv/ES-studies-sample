@@ -1,12 +1,12 @@
-## Table of contents
+## ES/SPX Studies
 * [General info](#general-info)
-* [Technologies](#technologies)
+* [Methodology](#technologies)
 * [Setup](#setup)
 
 ## General info
 This project is simple Lorem ipsum dolor generator.
 	
-## Technologies
+## Methodology
 Project is created with:
 * Lorem version: 12.3
 * Ipsum version: 2.33
