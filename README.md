@@ -24,6 +24,7 @@ Project is created with:
 * Daily OHLC 1962-2020 SPX
 * Daily OHLC 1928-2020 SPX
 * Intraday 1 minute ES-futures continuous contract OHLCV 2010-2020
+* Intraday tick data ES-futures continuous contract 2017-2020
 * CME Daily E-mini S&P 500 Futures continuous contract OHLCV 1997-2020
 
 ## Seasonality Example
