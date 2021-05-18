@@ -19,7 +19,7 @@ Usually a three steps process is:
 Project is created with:
 * PyCharm 2021 (Community Edition)
 * Python version: 3.8.5
-* Python libraries: matplotlib, pandas,  mplfinance, matplotlib, seaborn, numpy 
+* Python libraries: matplotlib, pandas,  mplfinance, seaborn, numpy 
 
 ## Data
 * Daily OHLC 1928-2020 SPX
