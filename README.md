@@ -36,7 +36,7 @@ Project is created with:
 ![SPX October](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/10_October.png)
 
 ## Mid term study Example
-*  Study of weekly volatility during the year. Data for last 20 year indicates October is most volatile month of the year.
+*  Study of weekly volatility during the year. Data for last 20 years indicates October is the most volatile month of the year.
 ![Weekly RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/004_heatmap_W_pR_HL_mean.png) 
 
 ## Short term study Example
