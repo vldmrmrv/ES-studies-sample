@@ -4,6 +4,7 @@
 * [SW & libraries](#sw-&-libraries)
 * [Data](#data)
 * [Seasonality Example](#seasonality-example)
+* [Mid term study Example](#mid-term-study-example)
 * [Short term study Example](#short-term-study-example)
 
 ## General info
@@ -33,6 +34,10 @@ Project is created with:
 ![SPX year](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/Y%20seasonality.png)
 * Closer look on individual months will help with timeing entries and exists. For example: second half of October is usually good time to initiate long term LONG possition in SPX/ES/SPDR with a potential of holding till the end of the calendar year and catching historically strongest period of the year.
 ![SPX October](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/10_October.png)
+
+## Mid term study Example
+*  Study of weekly volatility during the year. Data for last 20 year indicates October is most volatile month of the year.
+![Weekly RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/004_heatmap_W_pR_HL_mean.png) 
 
 ## Short term study Example
 *  Releationship between RTH range and IB range for different opening types and days of the week. Useing Seaborn-Implot to fit regression models across conditional subsets of a dataset.
