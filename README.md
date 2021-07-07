@@ -6,7 +6,7 @@
 * [Seasonality Example](#seasonality-example)
 * [Mid term study Example](#mid-term-study-example)
 * [Short term study Example](#short-term-study-example)
-* [High/Low of the Month](#hilo-month-example)
+* [High/Low of the Month Study](#hilo-month-example)
 
 ## General info
 This project is simple group of statistical studies with an intention to understand general behaviour of the market. Ideas and observations are tested on past data to give us an quantifiable results for possible future probabilities.
@@ -48,8 +48,40 @@ plt.show()
 ```
 ![Implot RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/002_lmplot_of_IB_rng_and_RTH_rng_SAMPLE.png)
 
-## High/Low of the Month
+## High/Low of the Month Study
 *  Not all buyers and sellers try to time the market. The U.S. stock market has been used as a long-term investment for retirement portfolios for decades, and the amount of money being moved in and out of the market has increased significantly during the past 20 years, Institutions, such as Vanguard and Fidelity, that control IRAs, 401K, and other retirement plans have an obligation to put new money into the market, or redeem it, by the EOM. Not all investments have daily liquidity. In addition, some firms must realize their gains or losses at the EOM for accounting purposes. Non U.S. firms, investing in the U.S. markets, may close out their profitable positions at the EOM and repartiate their gains. Based on those information we may try and test if there is any significant and usefull edge for trading US indices.
+*  Starting with 1Minute dataset we will actually need to make new datasets by aggregationg data to 1D (daily) and 1M (monthly), merge them, compare High/Low conditions and groupby results.
+
+* From timestamp/date column we will make new Day, Week, Month and Year colums that will be used for aggregation and grouping.
+```python
+df['Date'] = pd.to_datetime(df['Date'])
+df['Day'] = df['Date'].dt.dayofweek
+df['Week'] = df['Date'].dt.isocalendar().week
+df['Month'] = df['Date'].dt.month
+df['Year'] = df['Date'].dt.isocalendar().year
+```
+* Making daily / monthly bars and merging datasets.
+```python
+df2 = df.groupby(['Year', 'Month', 'Week', 'Day']).agg({'Open': 'first', 'High': 'max', 'Low': 'min', 'Close': 'last'})
+df3 = df.groupby(['Year', 'Month']).agg({'Open': 'first', 'High': 'max', 'Low': 'min', 'Close': 'last'})
+df4 = pd.merge(df2, df3, on=['Year', 'Month'])
+```
+
+* Checking if its UP or DOWN day and comparing its High/Low to High/Low of the Month. Final column 'signalBOTH' is True(1) if row made High in Down month ir Low in Up month (for now we care only about when is the best day of the month to enter a position).
+```python
+df['Hi'] = [1 if c == sma else 0 for c, sma in zip(df['High_x'], df['High_y'])]
+df['Lo'] = [1 if c == sma else 0 for c, sma in zip(df['Low_x'], df['Low_y'])]
+df['UD'] = [1 if c2 > c3 else 0 for c2, c3 in zip(df['Close_y'], df['Open_y'])]
+df['Hi_D'] = [1 if c2 == 1 and c3 == 0 else 0 for c2, c3 in zip(df['Hi'], df['UD'])]
+df['Lo_U'] = [1 if c2 == 1 and c3 == 1 else 0 for c2, c3 in zip(df['Lo'], df['UD'])]
+df['signalBOTH'] = [1 if c2 == 1 or c3 == 1 else 0 for c2, c3 in zip(df['Hi_D'], df['Lo_U'])]
+```
+
+* Next main step would be to groupby and sum results based on Day of the Month and plot the results. We can always for example test more specific conditions like test only Up months and its Low of the month and see if there is bigger significance compare to testing Up and Down months together. There is plenty of options and combinations / "filters" that can be tested but overfitting it for specific market conditions/time period is usually contraproductive in a big picture.
+```python
+df2 = df.groupby(['DoM']).agg({'signalBOTH': 'sum'})
+```
+
 
 ## ---
 Past performance is not indicative of future results. Data and information provided may be delayed. Data and information is provided for informational purposes only, and is not intended for trading purposes.
