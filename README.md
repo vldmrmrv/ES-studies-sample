@@ -77,11 +77,11 @@ df['Lo_U'] = [1 if c2 == 1 and c3 == 1 else 0 for c2, c3 in zip(df['Lo'], df['UD
 df['signalBOTH'] = [1 if c2 == 1 or c3 == 1 else 0 for c2, c3 in zip(df['Hi_D'], df['Lo_U'])]
 ```
 
-* Next main step would be to groupby and sum results based on Day of the Month and plot the results. We can always for example test more specific conditions like test only Up months and its Low of the month and see if there is bigger significance compare to testing Up and Down months together. There is plenty of options and combinations / "filters" that can be tested but overfitting it for specific market conditions/time period is usually contraproductive in a big picture.
+* Next main step would be to groupby and sum results based on Day of the Month and plot the results. We can always for example test more specific conditions like test only Up months and its Low of the month and see if there is bigger significance compare to testing Up and Down months together. There is plenty of options and combinations / "filters" that can be tested but overfitting it for specific market conditions/time period is usually conterproductive in a big picture.
 ```python
 df2 = df.groupby(['DoM']).agg({'signalBOTH': 'sum'})
 ```
-*  What day of the month will probably make a low of the whole month?. (Best time for opening a Buy and Hold possition is with a huge margin first day of the month - based on this test, otherwise its actually a window of T-3 to T+3)
+*  Dataset that we just made can answer questions like - What day of the month will probably make a low of the whole month? (Best time for opening a Buy and Hold possition is with a huge margin first day of the month - based on this test, otherwise its actually a window of T-3 to T+3)
 ![LoM](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/011_M%20Lo%20v%20UM%20by%20TDoM.png) 
 
 *  Heatmap showing when are Highs and Lows of months made. (Best time for opening and closing long term possitions is clearly start and end of the month)
