@@ -60,7 +60,7 @@ df['Week'] = df['Date'].dt.isocalendar().week
 df['Month'] = df['Date'].dt.month
 df['Year'] = df['Date'].dt.isocalendar().year
 ```
-* Making daily / monthly bars and merging datasets.
+* Making daily / monthly bars and merging datasets together.
 ```python
 df2 = df.groupby(['Year', 'Month', 'Week', 'Day']).agg({'Open': 'first', 'High': 'max', 'Low': 'min', 'Close': 'last'})
 df3 = df.groupby(['Year', 'Month']).agg({'Open': 'first', 'High': 'max', 'Low': 'min', 'Close': 'last'})
