@@ -6,7 +6,7 @@
 * [Seasonality Example](#seasonality-example)
 * [Mid term study Example](#mid-term-study-example)
 * [Short term study Example](#short-term-study-example)
-* [HiLo of the Month Study](#hilo-month-example)
+* [HiLo of the Month Example](#hilo-month-example)
 
 ## General info
 This project is simple group of statistical studies with an intention to understand general behaviour of the market. Ideas and observations are tested on past data to give us an quantifiable results for possible future probabilities.
