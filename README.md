@@ -34,12 +34,15 @@ Project is created with:
 * The following chart reflect seasonal patterns for SPX index over the period of a calendar year. Long term studies tend to survive for decades and as we can see very little changes of long term seasonal patterns occured during last 60 years.
 ![SPX year](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/Y%20seasonality.png)
 * Heatmap of SPX index (sum of percentage change for last 10 years) showing weak seasonalities during August and second half of September. Strong up trend (% up move) can be expected during first half of April. 
+
 ![Heat year](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/00a_heatmap_p_Open%20to%20Close%20_%20UPDOWN%20(RTH%20range).png)
 * Closer look on individual months will help with timeing entries and exists. For example: second half of October is usually good time to initiate long term LONG possition in SPX/ES/SPDR with a potential of holding till the end of the calendar year and catching historically strongest period of the year.
+
 ![SPX October](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/10_October.png)
 
 ## Mid term study Example
 *  Study of weekly volatility during the year. Data for last 20 years indicates October is the most volatile month of the year.
+
 ![Weekly RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/004_heatmap_W_pR_HL_mean.png) 
 
 ## Short term study Example
@@ -48,6 +51,7 @@ Project is created with:
 sns.lmplot(data=df, x='IB_RNG', y='RTH_RNG', col='DoW', hue="OOR", height=5)
 plt.show()
 ```
+
 ![Implot RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/002_lmplot_of_IB_rng_and_RTH_rng_SAMPLE.png)
 
 ## HiLo of the Month Study
@@ -84,9 +88,11 @@ df['signalBOTH'] = [1 if c2 == 1 or c3 == 1 else 0 for c2, c3 in zip(df['Hi_D'],
 df2 = df.groupby(['DoM']).agg({'signalBOTH': 'sum'})
 ```
 *  Dataset that we just made can answer questions like - What day of the month will probably make a low of the whole month? (Best time for opening a Buy and Hold possition is with a huge margin first day of the month - based on this test, otherwise its actually a window of T-3 to T+3)
+
 ![LoM](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/011_M%20Lo%20v%20UM%20by%20TDoM.png) 
 
 *  Heatmap showing when are Highs and Lows of months made. (Best time for opening and closing long term possitions is clearly start and end of the month)
+
 ![HLoM](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/010_heatmap_M_HoL_sum%20(RTH).png) 
 
 ## ---
