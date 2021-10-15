@@ -88,7 +88,7 @@ df['signalBOTH'] = [1 if c2 == 1 or c3 == 1 else 0 for c2, c3 in zip(df['Hi_D'],
 ```python
 df2 = df.groupby(['DoM']).agg({'signalBOTH': 'sum'})
 ```
-*  Dataset that we just made can answer questions like - What day of the month will probably make a low of the whole month? (Best time for opening a Buy and Hold possition is with a huge margin first day of the month - based on this test, otherwise its actually a window of T-3 to T+3)
+*  Dataset that we just made can answer questions like - What day of the month will probably make the low of the whole month? (Best time for opening a Buy and Hold possition is with a huge margin first day of the month - based on this test.
 
 ![LoM](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/011_M%20Lo%20v%20UM%20by%20TDoM.png) 
 
