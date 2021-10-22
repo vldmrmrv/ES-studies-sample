@@ -55,6 +55,18 @@ plt.show()
 
 ![Implot RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/002_lmplot_of_IB_rng_and_RTH_rng_SAMPLE.png)
 
+*  Simple intraday study of RTH High and Low in S&P500 futures (15 minutes dataset, 2010-2020). How often is High or Low of the cash session made in first one hour of trading ? first 15 minutes of trading ? etc..
+
+```python
+sns.set_theme(style="whitegrid")
+sns.barplot(x="time", y="prcnt", data=df, ci=None, palette="mako")
+plt.xticks(rotation=70)
+plt.suptitle('High or Low of the RTH session (%) 2010-2020')
+plt.show()
+```
+
+![Bar2plot RNG](https://github.com/vldmrmrv/ES-Exploratory-Data-Analysis-DataScience/blob/main/EDA_charts/017_ES_RTH_HiLo.png)
+
 ## High & Low of the Month Study
 *  Not all buyers and sellers try to time the market. The U.S. stock market has been used as a long-term investment for retirement portfolios for decades, and the amount of money being moved in and out of the market has increased significantly during the past 20 years, Institutions, such as Vanguard and Fidelity, that control IRAs, 401K, and other retirement plans have an obligation to put new money into the market, or redeem it, by the EOM. Not all investments have daily liquidity. In addition, some firms must realize their gains or losses at the EOM for accounting purposes. Non U.S. firms, investing in the U.S. markets, may close out their profitable positions at the EOM and repartiate their gains. Based on those information we may try and test if there is any significant and usefull edge for trading US indices.
 *  Starting with 1Minute dataset we will actually need to make new datasets by aggregationg data to 1D (daily) and 1M (monthly), merge them, compare High/Low conditions and groupby results.
