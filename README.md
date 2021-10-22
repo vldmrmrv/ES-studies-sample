@@ -55,7 +55,7 @@ plt.show()
 
 ![Implot RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/002_lmplot_of_IB_rng_and_RTH_rng_SAMPLE.png)
 
-*  Simple intraday study of RTH High and Low in S&P500 futures (15 minutes dataset, 2010-2020). How often is High or Low of the cash session made in first one hour of trading ? first 15 minutes of trading ? etc..
+*  Simple intraday study of RTH High and Low in S&P500 futures (15 minutes dataset, 2010-2020). How often is High or Low of the cash session made in first one hour of trading ?
 
 ```python
 sns.set_theme(style="whitegrid")
