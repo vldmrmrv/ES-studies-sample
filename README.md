@@ -46,6 +46,10 @@ Project is created with:
 
 ![Weekly RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/004_heatmap_W_pR_HL_mean.png) 
 
+*  Study of Daily (RTH only) volatility during the year. Data for last 10 years show September is the most volatile month of the year during cash session (chart shows sum of days bigger than 1% and its relative percentage).
+
+![DvMpVol RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/012_DvM_rth_pVol.png) 
+
 ## Short term study Example
 *  Releationship between RTH range and IB range for different opening types and days of the week. Useing Seaborn-Implot to fit regression models across conditional subsets of a dataset.
 ```python
