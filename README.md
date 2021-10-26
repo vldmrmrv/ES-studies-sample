@@ -34,12 +34,18 @@ Project is created with:
 * The following chart reflect seasonal patterns for SPX index over the period of a calendar year. Long term studies tend to survive for decades and as we can see very little changes of long term seasonal patterns occured during last 60 years.
 
 ![SPX year](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/Y%20seasonality.png)
+
 * Heatmap of SPX index (sum of percentage change for last 10 years) showing weak seasonalities during August and second half of September. Strong up trend (% up move) can be expected during first half of April. 
 
 ![Heat year](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/00a_heatmap_p_Open%20to%20Close%20_%20UPDOWN%20(RTH%20range).png)
+
 * Closer look on individual months will help with timeing entries and exists. For example: second half of October is usually good time to initiate long term LONG possition in SPX/ES/SPDR with a potential of holding till the end of the calendar year and catching historically strongest period of the year.
 
 ![SPX October](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/10_October.png)
+
+* Seasonality by week of the year. (RTH only, 2010-2020, dropped weeks 1, 51 and 52)
+
+![Weeklys](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/013_season_2010-2020_YbW_50W_RTHonly.png)
 
 ## Mid term study Example
 *  Study of weekly volatility during the year. Data for last 20 years indicates October is the most volatile month of the year.
