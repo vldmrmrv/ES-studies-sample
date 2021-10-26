@@ -43,7 +43,7 @@ Project is created with:
 
 ![SPX October](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/10_October.png)
 
-* Seasonality by week of the year. (RTH only, 2010-2020, dropped weeks 1, 51 and 52)
+* Seasonality by week of the year with estimates and confidence intervals. (RTH only, 2010-2020, dropped weeks 1, 51 and 52)
 
 ![Weeklys](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/013_season_2010-2020_YbW_50W_RTHonly.png)
 
