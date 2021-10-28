@@ -47,6 +47,10 @@ Project is created with:
 
 ![Weeklys](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/013_season_2010-2020_YbW_50W_RTHonly.png)
 
+* RTH Monthly seasonality - sum of monthly % Open to Close change over the last 10 years, 20 year and 1962-2019
+
+![Monthly](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/monthly_season.png)
+
 ## Mid term study Example
 *  Study of weekly volatility during the year. Data for last 20 years indicates October is the most volatile month of the year.
 
