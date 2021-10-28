@@ -47,7 +47,7 @@ Project is created with:
 
 ![Weeklys](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/013_season_2010-2020_YbW_50W_RTHonly.png)
 
-* RTH Monthly seasonality - sum of monthly Open to Close %change over the last 10 years, 20 year and 1962-2019 (1962-2019 data)
+* RTH Monthly seasonality - sum of monthly Open to Close %change over the last 10 years, 20 year and 1962-2019 (1962-2019 data). Data proves once again that April and November are very bullish months during the history and also recently.
 
 ![Monthly](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/monthly_season.png)
 
