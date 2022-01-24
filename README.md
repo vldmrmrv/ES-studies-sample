@@ -85,7 +85,7 @@ plt.show()
 
 ## High & Low of the Month Study
 *  Not all buyers and sellers try to time the market. The U.S. stock market has been used as a long-term investment for retirement portfolios for decades, and the amount of money being moved in and out of the market has increased significantly during the past 20 years, Institutions, such as Vanguard and Fidelity, that control IRAs, 401K, and other retirement plans have an obligation to put new money into the market, or redeem it, by the EOM. Not all investments have daily liquidity. In addition, some firms must realize their gains or losses at the EOM for accounting purposes. Non U.S. firms, investing in the U.S. markets, may close out their profitable positions at the EOM and repartiate their gains. Based on those information we may try and test if there is any significant and usefull edge for trading US indices.
-*  Starting with 1Minute dataset we will actually need to make new datasets by aggregationg data to 1D (daily) and 1M (monthly), merge them, compare High/Low conditions and groupby results.
+*  Starting with 1Minute dataset we will actually need to make new datasets by aggregating data to 1D (daily) and 1M (monthly), merge them, compare High/Low conditions and groupby results.
 
 * From timestamp/date column we will make new Day, Week, Month and Year colums that will be used for aggregation and grouping.
 ```python
