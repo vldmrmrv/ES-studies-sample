@@ -60,6 +60,10 @@ Project is created with:
 
 ![DvMpVol RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/012_DvM_rth_pVol2.png) 
 
+*  Extreme volatility of 2020 comparison to previous year. (monthly closing prices).
+
+![2020Vol](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/018_volatility%20comparison.png) 
+
 ## Short term study Example
 *  Releationship between RTH range and IB range for different opening types and days of the week. Useing Seaborn-Implot to fit regression models across conditional subsets of a dataset.
 ```python
