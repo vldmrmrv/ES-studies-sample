@@ -60,7 +60,7 @@ Project is created with:
 
 ![DvMpVol RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/012_DvM_rth_pVol2.png) 
 
-*  Extreme volatility of 2020 comparison to previous year. (monthly closing prices).
+*  Extreme volatility of 2020 comparison to previous years. (monthly closing prices).
 
 ![2020Vol](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/018_volatility%20comparison.png) 
 
