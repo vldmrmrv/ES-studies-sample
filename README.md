@@ -62,7 +62,7 @@ Project is created with:
 
 *  Extreme volatility of 2020 comparison to previous years. (monthly closing prices).
 
-![2020Vol](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/018_volatility%20comparison.png) 
+![2020Vol](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/018_volatility_comparison.png) 
 
 ## Short term study Example
 *  Releationship between RTH range and IB range for different opening types and days of the week. Useing Seaborn-Implot to fit regression models across conditional subsets of a dataset.
