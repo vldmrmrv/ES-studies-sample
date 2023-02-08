@@ -73,7 +73,7 @@ plt.show()
 
 ![Implot RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/002_lmplot_of_IB_rng_and_RTH_rng_SAMPLE.png)
 
-*  Simple intraday study of RTH High and Low in S&P500 futures (15 minutes dataset, 2010-2020). How often is High or Low of the cash session made on each of the M15 bars ?
+*  Simple intraday study of RTH High and Low in S&P500 futures (15 minutes dataset, 2010-2020). How often is High (for DDay) or Low (for UDay) of the cash session made on every M15 bar ?
 
 ```python
 sns.set_theme(style="whitegrid")
