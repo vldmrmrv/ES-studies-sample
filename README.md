@@ -30,8 +30,8 @@ Project is created with:
 * CME Daily E-mini S&P 500 Futures continuous contract OHLCV 1997-2020
 
 ## Seasonality Example
-* Seasonality is well calendar effect in markets worth investigating in case of planning trading/investing for longer period of time. Seasonal patterns are constructed by plotting daily data against calendar/trading days rather than simply averaging daily/weekly/monthly data. Such daily data has proven to be far more valuable when looking for consistent and precise entry and exit dates.
-* The following chart reflect seasonal patterns for SPX index over the period of a calendar year. Long term studies tend to survive for decades and as we can see very little changes of long term seasonal patterns occured during last 60 years.
+* Seasonality is well known calendar effect in markets worth investigating in case of planning trading/investing for longer period of time. Seasonal patterns are constructed by plotting daily data against calendar/trading days rather than simply averaging daily/weekly/monthly data. Such daily data has proven to be far more valuable when looking for consistent and precise entry and exit dates.
+* The following chart reflect seasonal trends for SPX index over the period of a ona calendar year. Long term studies tend to survive for decades and as we can see very little changes of long term seasonal trends occured during last 60 years.
 
 ![SPX year](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/Y%20seasonality.png)
 
