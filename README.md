@@ -9,7 +9,7 @@
 * [HiLo of the Month Example](#hilo-month-example)
 
 ## General info
-This project is simple group of statistical studies with an intention to understand general behaviour of the market. Ideas and observations are tested on past data to give us an quantifiable results for possible future probabilities.
+This project is a group of simple statistical studies with an intention to understand general behaviour of the market. Ideas and observations are tested on past data to give us an quantifiable results for possible future probabilities.
 
 ## Methodology
 Usually a three steps process is:
