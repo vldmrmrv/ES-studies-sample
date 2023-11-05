@@ -18,7 +18,7 @@ Usually a three steps process is:
 * Output is generated in visually easy to interpret chart/heatmap/table to give us clear picture/probability of study.
 
 ## SW & libraries
-Project is created with:
+Project was created with:
 * PyCharm 2021 (Community Edition)
 * Python version: 3.8.5
 * Python libraries: matplotlib, pandas,  mplfinance, seaborn, numpy 
@@ -30,7 +30,7 @@ Project is created with:
 * CME Daily E-mini S&P 500 Futures continuous contract OHLCV 1997-2020
 
 ## Seasonality Example
-* Seasonality is well known calendar effect in markets worth investigating in case of planning trading/investing for longer period of time. Seasonal patterns are constructed by plotting daily data against calendar/trading days rather than simply averaging daily/weekly/monthly data. Such daily data has proven to be far more valuable when looking for consistent and precise entry and exit dates.
+* Seasonality is well known calendar effect in markets worth investigating in case of planning and trading/investing for longer period of time. Seasonal patterns are constructed by plotting daily data against calendar or trading days rather than simply averaging daily/weekly/monthly data. Such daily data has proven to be far more valuable when looking for consistent and precise entry and exit dates.
 * The following chart reflect seasonal trends for SPX index over the period of a ona calendar year. Long term studies tend to survive for decades and as we can see very little changes of long term seasonal trends occured during last 60 years.
 
 ![SPX year](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/Y%20seasonality.png)
@@ -56,7 +56,7 @@ Project is created with:
 
 ![Weekly RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/004_heatmap_W_pR_HL_mean.png) 
 
-*  Study of Daily RTH only data and its volatility during the year. Data for last 10 years show October is the most volatile month of the year during cash session (chart shows sum of days bigger than 1% and its relative percentage).
+*  Study of Daily RTH only data and its volatility during the year. Data for last 10 years show October is the most volatile month of the year during cash session (chart shows sum of days with ablosute move bigger than 1% and its relative percentage).
 
 ![DvMpVol RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/012_DvM_rth_pVol2.png) 
 
@@ -73,7 +73,7 @@ plt.show()
 
 ![Implot RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/002_lmplot_of_IB_rng_and_RTH_rng_SAMPLE.png)
 
-*  Simple intraday study of RTH High and Low in S&P500 futures (15 minutes dataset, 2010-2020). How often is High (for DDay) or Low (for UDay) of the cash session made on every M15 bar ?
+*  Simple intraday study of RTH High and Low in S&P500 futures (15 minutes dataset, 2010-2020). How often is High or Low of the cash session made on every M15 bar ?
 
 ```python
 sns.set_theme(style="whitegrid")
