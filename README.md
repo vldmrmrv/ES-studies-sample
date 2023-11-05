@@ -126,7 +126,7 @@ df2 = df.groupby(['DoM']).agg({'signalBOTH': 'sum'})
 
 ![LoM](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/011_M%20Lo%20v%20UM%20by%20TDoM.png) 
 
-*  Heatmap showing when are Highs and Lows of months made. (Best time for opening and closing long term possitions is clearly start and end of the month)
+*  Heatmap showing when are Highs and Lows of months made. (Best time for opening and closing long term possitions is clearly beginning and end of the month)
 
 ![HLoM](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/010_heatmap_M_HoL_sum%20(RTH).png) 
 
