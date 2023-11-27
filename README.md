@@ -35,7 +35,7 @@ Project was created with:
 
 ![SPX year](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/Y%20seasonality.png)
 
-* Seasonality based on US Presidential cycle (4 years: Election Year, Post-Election Year, Midterm Year, Pre-Election Year). First chart is average %change price from 1960 to 2019, second is last election cycle from 2020 to 2023 (because this study is made in November 2023, second chart is not including December 2023 and last week of November). Based on historical data Midterm year is the weakest one.
+* Seasonality based on US Presidential cycle (4 years: Election Year, Post-Election Year, Midterm Year, Pre-Election Year). First chart is average %change price from 1960 to 2019, second is last election cycle from 2020 to 2023 (because this study is made in November 2023, second chart is not including December 2023 and last week of November). Based on historical data Midterm year is the weakest one. (x axis - 252 business days, y axis %change)
 
 ![Pcyc year](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/0XX_pre_cyc_seasonality_1960.png)
 
