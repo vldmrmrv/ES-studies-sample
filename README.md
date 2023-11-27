@@ -118,7 +118,7 @@ df['Lo_U'] = [1 if c2 == 1 and c3 == 1 else 0 for c2, c3 in zip(df['Lo'], df['UD
 df['signalBOTH'] = [1 if c2 == 1 or c3 == 1 else 0 for c2, c3 in zip(df['Hi_D'], df['Lo_U'])]
 ```
 
-* Next main step would be to groupby and sum results based on Day of the Month and plot the results. We can always for example test more specific conditions like test only Up months and its Low of the month and see if there is bigger significance compare to testing Up and Down months together. There is plenty of options and combinations / "filters" that can be tested but overfitting it for specific market conditions/time period is usually conterproductive in a big picture.
+* Next main step would be to groupby and sum results based on Day of the Month and plot the results. We can always for example test more specific conditions like test only Up months and its Low of the month and see if there is bigger significance compare to testing Up and Down months together. There is plenty of options and combinations / "filters" that can be tested but overfitting it for specific market conditions/time period is usually contarproductive in a long term.
 ```python
 df2 = df.groupby(['DoM']).agg({'signalBOTH': 'sum'})
 ```
