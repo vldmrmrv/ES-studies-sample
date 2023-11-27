@@ -35,7 +35,7 @@ Project was created with:
 
 ![SPX year](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/Y%20seasonality.png)
 
-* Seasonality based on US Presidential 4 year cycle (Election Year, Post-Election Year, Midterm Year, Pre-Election Year). First chart is from 1960 to 2019, second is last election cycle from 2020 to 2023 (becouse this study is made in November 2023, second chart is not including December 23 and last week of November 23). Based on historical datas Midterm year is the weakest one.
+* Seasonality based on US Presidential 4 year cycle (Election Year, Post-Election Year, Midterm Year, Pre-Election Year). First chart is from 1960 to 2019, second is last election cycle from 2020 to 2023 (because this study is made in November 2023, second chart is not including December 23 and last week of November 23). Based on historical data Midterm year is the weakest one.
 
 ![Pcyc year](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/0XX_pre_cyc_seasonality_1960.png)
 
