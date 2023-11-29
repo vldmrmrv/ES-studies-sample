@@ -9,13 +9,13 @@
 * [HiLo of the Month Example](#hilo-month-example)
 
 ## General info
-This project is a group of simple statistical studies with an intention to understand general behaviour of the market. Ideas and observations are tested on past data to give us an quantifiable results for possible future probabilities.
+This project is a group of simple statistical studies with an intention to understand general behaviour of the market. Ideas and observations are tested on past data to give us an quantifiable results and possibly future probabilities.
 
 ## Methodology
 Usually a three steps process is:
-* CSV data are cleaned, transformed, aggregated, grouped based on current requirements. 
-* Studies are programmed and run in Python.
-* Output is generated in visually easy to interpret chart/heatmap/table to give us clear picture/probability of study.
+* CSV data are cleaned, transformed, aggregated and grouped based on current requirements 
+* Studies are programmed and run in Python
+* Output is generated in visually easy to interpret chart/heatmap/table to give us clear picture/probability of a study
 
 ## SW & libraries
 Project was created with:
@@ -30,12 +30,12 @@ Project was created with:
 * CME Daily E-mini S&P 500 Futures continuous contract OHLCV 1997-2020
 
 ## Seasonality Example
-* Seasonality is well known calendar effect in markets worth investigating in case of planning and trading/investing for longer period of time. Seasonal patterns are constructed by plotting daily data against calendar or trading days rather than simply averaging daily/weekly/monthly data. Such daily data has proven to be far more valuable when looking for consistent and precise entry and exit dates.
-* The following chart reflect seasonal trends for SPX index over the period of a ona calendar year. Long term studies tend to survive for decades and as we can see very little changes of long term seasonal trends occured during last 60 years.
+* Seasonality is well known calendar effect in markets worth investigating in case of planning and trading/investing for longer period of time. Seasonal patterns are constructed by plotting daily data against calendar or trading days rather than simply averaging daily/weekly/monthly data. Such daily data has proven to be far more valuable when looking for consistent and precise entries and exits dates.
+* The following chart reflect seasonal trends for SPX index over the period of one calendar year. Long term studies tend to survive for decades and as we can see very little changes of long term seasonal trends occured during last 60 years.
 
 ![SPX year](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/Y%20seasonality.png)
 
-* Seasonality based on US Presidential cycle (4 years: Election Year, Post-Election Year, Midterm Year, Pre-Election Year). First chart is average %change price from 1960 to 2019, second is last election cycle from 2020 to 2023 (because this study is made in November 2023, second chart is not including December 2023 and last week of November). Based on historical data Midterm year is the weakest one. (x axis - 252 business days, y axis %change)
+* Seasonality based on US Presidential cycle (4 years: Election Year, Post-Election Year, Midterm Year, Pre-Election Year). First chart is average %change of price from 1960 to 2019, second is the last election cycle from 2020 to 2023 (because this study is made in November 2023, second chart is not including December 2023 and last week of November). Based on historical data Midterm year is the weakest one. (x axis - 252 business days, y axis %change)
 
 ![Pcyc year](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/0XX_pre_cyc_seasonality_1960.png)
 
@@ -45,7 +45,7 @@ Project was created with:
 
 ![Heat year](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/00a_heatmap_p_Open%20to%20Close%20_%20UPDOWN%20(RTH%20range).png)
 
-* Closer look on individual months will help with timeing entries and exists. For example: second half of October is usually good time to initiate long term LONG possition in SPX/ES/SPDR with a potential of holding till the end of the calendar year and catching historically strongest period of the year.
+* Closer look on individual months will help with timeing entries and exists. For example: second half of October is usually good time to initiate long term long possition in SPX/ES/SPDR with a potential of holding till the end of the calendar year and catching historically strongest period of the year.
 
 ![SPX October](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/10_October.png)
 
@@ -53,7 +53,7 @@ Project was created with:
 
 ![Weeklys](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/013_season_2010-2020_YbW_50W_RTHonly.png)
 
-* RTH Monthly seasonality - sum of monthly Open to Close %change over the last 10 years, 20 year and 1962-2019 (1962-2019 data). Data proves once again that April and November are very bullish months during the history and also recently.
+* RTH Monthly seasonality - sum of monthly Open to Close %change over the last 10, 20 and 57 years (1962-2019 data). Data proves once again that April and November are very bullish months during the history and also recently.
 
 ![Monthly](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/monthly_season.png)
 
@@ -62,11 +62,11 @@ Project was created with:
 
 ![Weekly RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/004_heatmap_W_pR_HL_mean.png) 
 
-*  Study of Daily RTH only data and its volatility during the year. Data for last 10 years show October is the most volatile month of the year during cash session (chart shows sum of days with ablosute move bigger than 1% and its relative percentage).
+*  Study of Daily RTH only data and its volatility during the year. Data for last 10 years show October is the most volatile month of the year during the cash session (chart shows sum of days with ablosute move bigger than 1% and its relative percentage).
 
 ![DvMpVol RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/012_DvM_rth_pVol2.png) 
 
-*  Extreme volatility of 2020 comparison to previous years. (monthly closing prices).
+*  Extreme volatility of 2020 comparison to previous years (monthly closing prices).
 
 ![2020Vol](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/018_volatility_comparison.png) 
 
@@ -96,8 +96,8 @@ plt.show()
 ![Bar21plot RNG](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/017_es_rthonly_hodlod.png)
 
 ## High & Low of the Month Study
-*  Not all buyers and sellers try to time the market. The U.S. stock market has been used as a long-term investment for retirement portfolios for decades, and the amount of money being moved in and out of the market has increased significantly during the past 20 years, Institutions, such as Vanguard and Fidelity, that control IRAs, 401K, and other retirement plans have an obligation to put new money into the market, or redeem it, by the EOM. Not all investments have daily liquidity. In addition, some firms must realize their gains or losses at the EOM for accounting purposes. Non U.S. firms, investing in the U.S. markets, may close out their profitable positions at the EOM and repartiate their gains. Based on those information we may try and test if there is any significant and usefull edge for trading US indices.
-*  Starting with 1Minute dataset we will actually need to make new datasets by aggregating data to 1D (daily) and 1M (monthly), merge them, compare High/Low conditions and groupby results.
+*  Not all buyers and sellers try to time the market. The U.S. stock market has been used as a long-term investment for retirement portfolios for decades, and the amount of money being moved in and out of the market has increased significantly during the last 20 years. Institutions, such as Vanguard and Fidelity, that control IRAs, 401K, and other retirement plans have an obligation to put new money into the market, or redeem it, by the EOM. Not all investments have daily liquidity. In addition, some firms must realize their gains or losses at the EOM for accounting purposes. Non U.S. firms, investing in the U.S. markets, may close out their profitable positions at the EOM and repartiate their gains. Based on those information we may try and test if there is any significant and usefull edge for trading US indices.
+*  Starting with 1 Minute dataset we will actually need to make new datasets by aggregating data to 1D (daily) and 1MN (monthly), merge them, compare High/Low conditions and groupby results.
 
 * From timestamp/date column we will make new Day, Week, Month and Year colums that will be used for aggregation and grouping.
 ```python
@@ -114,7 +114,7 @@ df3 = df.groupby(['Year', 'Month']).agg({'Open': 'first', 'High': 'max', 'Low': 
 df4 = pd.merge(df2, df3, on=['Year', 'Month'])
 ```
 
-* Checking if its Up or Down day and comparing its High/Low to High/Low of the Month. Final column 'signalBOTH' is True(1) if row made High in Down month or Low in Up month (for now we care only about when is the best day of the month to enter a position).
+* Checking if its U or D bar and comparing its HL to HL of the Month. Final column 'signalBOTH' is True(1) if row made High in Down month or Low in Up month (for now we care only about when is the best day of the month to enter a position).
 ```python
 df['Hi'] = [1 if c == s else 0 for c, s in zip(df['High_x'], df['High_y'])]
 df['Lo'] = [1 if c == s else 0 for c, s in zip(df['Low_x'], df['Low_y'])]
