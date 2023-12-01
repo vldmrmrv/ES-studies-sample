@@ -57,9 +57,9 @@ Project was created with:
 
 ![Monthly](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/monthly_season.png)
 
-* Quarterly %change - distribution of percentage changes of price from 1983 to 2019. Four charts for different dacade (1980-89, 1990-99, 2000-09 and 2010-19), each QTR with different color (1 first qtr, 4 second qrt, 7 third qtr, 10 fourth qrt). There are less outliers and data is more squeed in last decade most likely thanks to introduction of circuit brakers after the crash in 1987.
+* Quarterly %change - distribution of percentage changes of price from 1983 to 2019. Four charts for different dacade (1980-89, 1990-99, 2000-09 and 2010-19), each QTR with different color (1 first qtr, 4 second qrt, 7 third qtr, 10 fourth qrt). There are less outliers and data is more squeed in last decades most likely thanks to introduction of circuit brakers after the 1987 crash.
 
-![QTR_v0](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/020_QTR_pCh_dis.png))
+![QTR_v0](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/020_QTR_pCh_dis.png)
 
 ## Mid term study Example
 *  Study of weekly volatility during the year. Data for last 20 years indicates October is the most volatile month of the year.
