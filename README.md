@@ -41,7 +41,7 @@ Project was created with:
 
 ![Pcyc year4](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/0XX_pre_cyc_seasonality_last%204%20(x%20dec%202023).png)
 
-* Yearly corrections from ATH based on US Presidential cycle (Election Year, Post-Election Year, Midterm Year, Pre-Election Year) with mean horizontal lines. Data from 1964 to 2023 in percentages.
+* Yearly corrections from ATH based on US Presidential cycle (Election Year, Post-Election Year, Midterm Year, Pre-Election Year) with mean horizontal lines. Data from 1964 to 2023 in percentages. Average correction in Midterm Year is -25%.
 
 ![Pcyc year](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/0XX_pre_cyc_corr_dreal_v2.png)
 
