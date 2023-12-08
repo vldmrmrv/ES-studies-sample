@@ -41,6 +41,10 @@ Project was created with:
 
 ![Pcyc year4](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/0XX_pre_cyc_seasonality_last%204%20(x%20dec%202023).png)
 
+* Yearly corrections from ATH based on US Presidential cycle (Election Year, Post-Election Year, Midterm Year, Pre-Election Year) with mean horizontal lines. Data from 1964 to 2023 in percentages.
+
+![Pcyc year](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/0XX_pre_cyc_corr_dreal_v2.png)
+
 * Heatmap of SPX index (sum of percentage change for last 10 years) showing weak seasonalities during August and second half of September. Strong up trend (% up move) can be expected during first half of April. 
 
 ![Heat year](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/000_seasonality_all/00a_heatmap_p_Open%20to%20Close%20_%20UPDOWN%20(RTH%20range).png)
