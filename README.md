@@ -145,4 +145,4 @@ df2 = df.groupby(['DoM']).agg({'signalBOTH': 'sum'})
 ![HLoM](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/010_heatmap_M_HoL_sum%20(RTH).png) 
 
 ## ---
-Past performance is not indicative of future results. Data and information provided may be delayed. Data and information is provided for informational purposes only, and is not intended for trading purposes.
+Past performance is not indicative of future results. Data and information is provided for informational purposes only, and is not intended for trading purposes.
