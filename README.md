@@ -122,7 +122,7 @@ df3 = df.groupby(['Year', 'Month']).agg({'Open': 'first', 'High': 'max', 'Low': 
 df4 = pd.merge(df2, df3, on=['Year', 'Month'])
 ```
 
-* Checking if its U or D bar and comparing its HL to HL of the Month. Final column 'signalBOTH' is True(1) if row made High in Down month or Low in Up month (for now we care only about when is the best day of the month to enter a position).
+* Checking if it´s U or D bar and comparing its HL to HL of the Month. Final column 'signalBOTH' is True(1) if row made High in Down month or Low in Up month (for now we care only about when is the best day of the month to enter a position).
 ```python
 df['Hi'] = [1 if c == s else 0 for c, s in zip(df['High_x'], df['High_y'])]
 df['Lo'] = [1 if c == s else 0 for c, s in zip(df['Low_x'], df['Low_y'])]
