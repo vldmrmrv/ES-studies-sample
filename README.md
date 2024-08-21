@@ -78,6 +78,18 @@ Project was created with:
 
 ![2020Vol](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/018_volatility_comparison.png) 
 
+## Mid term tranding enviroment (RNRs study)
+*  Studies of weekly/monthly tranding periods during the year. Data for last 15 years indicates same cyclical patterns over the years with completely different market enviroments e.g. slow markets hitting ATHs, fast -10% corrections or panics.
+
+![12toX](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/021_12to%20Wc_DoMvM_%20YMCX.png) 
+
+![12toXY](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/022_1toX_WbyY.png)
+
+![12toXath](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/023_TDoMvM_rnr_nATHs.png) 
+
+![12toXYs](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/024_TDoMvM_rnr_byY.png) 
+
+
 ## Short term study Example
 *  Releationship between RTH range and IB range for different opening types and days of the week. Useing Seaborn-Implot to fit regression models across conditional subsets of a dataset.
 ```python
