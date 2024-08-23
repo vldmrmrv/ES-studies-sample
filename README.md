@@ -78,8 +78,8 @@ Project was created with:
 
 ![2020Vol](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/018_volatility_comparison.png) 
 
-## Mid term tranding enviroment (RNRs study)
-*  Studies of weekly/monthly tranding periods during the year. Data for last 15 years indicates same cyclical patterns over the years with completely different market enviroments e.g. slow markets hitting ATHs, fast -10% corrections or panics.
+## Mid term trending enviroment (RNRs study)
+*  Studies of weekly/monthly trending periods during the year. Data for last 15 years indicates same cyclical patterns over the years even with completely different market enviroments e.g. slow markets hitting ATHs, fast deep corrections or panics sell-offs.
 
 ![12toX](https://github.com/vldmrmrv/ES-studies-sample-DataScience/blob/main/021_12to%20Wc_DoMvM_%20YMCX.png) 
 
